@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 //import './../../App.css'
+
 import './Contato.css'
 
 class Contato extends Component {
