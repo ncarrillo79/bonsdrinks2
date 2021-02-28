@@ -1,0 +1,33 @@
+.Menu {
+  background-color: var(--white);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.42);
+  padding: 10px 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  z-index: 50;
+  grid-area: "header";
+}
+
+.NavMenu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.NavMenu li {
+  letter-spacing: 0.8px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.NavMenu li:hover {
+  transition: 0.45s ease;
+  color: var(--orange);
+  cursor: pointer;
+}
+
+.NavMenu .Header-logo {
+  font-family: "Bilbo Swash Caps", cursive;
+  font-size: 36px;
+  font-weight: 500;
+}
