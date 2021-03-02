@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Input from '../Input/Input'
 //import './../../App.css'
+
 import './Contato.css'
 
 class Contato extends Component {
